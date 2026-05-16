@@ -430,7 +430,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Step 2 — Clone Repository
 
 ```bash
-git clone https://github.com/your-username/intellitutor-ai.git
+git clone https://github.com/lokesh17052001/intellitutor-ai.git
 ```
 
 ---
@@ -439,6 +439,8 @@ git clone https://github.com/your-username/intellitutor-ai.git
 
 ```bash
 cd intellitutor-ai
+Change the project name "Your_Project"
+cd Your_Project
 ```
 
 ---
@@ -535,7 +537,7 @@ CREATE DATABASE intellitutor;
 # Running the Application
 
 ```bash
-uvicorn app.main:app --reload
+uv run main.py
 ```
 
 ---
